@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# NFC
+#PRODUCT_PACKAGES += \
+#    RemovePackages
+
 # Inherit from sm6250-common
 $(call inherit-product, device/xiaomi/sm6250-common/common.mk)
 
