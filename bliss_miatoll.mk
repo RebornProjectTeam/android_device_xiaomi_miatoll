@@ -7,14 +7,18 @@
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Bliss stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+
+# Bliss GApps
+BLISS_BUILD_VARIANT := gapps
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := lineage_miatoll
+PRODUCT_NAME := bliss_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := miaomi
 PRODUCT_MODEL := miatoll
