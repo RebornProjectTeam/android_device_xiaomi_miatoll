@@ -16,7 +16,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier
 PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
-PRODUCT_BRAND := miaomi
+PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 
