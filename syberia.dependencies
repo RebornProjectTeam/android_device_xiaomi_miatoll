@@ -15,12 +15,12 @@
     "remote": "github",
     "repository": "RebornProjectTeam/android_device_xiaomi_miatoll",
     "target_path": "device/xiaomi/miatoll",
-    "branch": "lineage-18.1"
+    "branch": "syberia"
   },
   {
     "remote": "github",
     "repository": "RebornProjectTeam/android_device_xiaomi_sm6250-common",
     "target_path": "device/xiaomi/sm6250-common",
-    "branch": "lineage-18.1"
+    "branch": "syberia"
   }  
 ]
