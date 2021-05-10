@@ -18,7 +18,7 @@ $(call inherit-product-if-exists, vendor/gapps/config.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device identifier
 PRODUCT_NAME := aosp_miatoll
