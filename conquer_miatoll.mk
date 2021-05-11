@@ -7,14 +7,14 @@
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ConquerOS stuff
+$(call inherit-product, vendor/conquer/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := lineage_miatoll
+PRODUCT_NAME := conquer_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := miatoll
