@@ -10,8 +10,9 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Inherit some common Bliss stuff
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Bliss GApps
-BLISS_BUILD_VARIANT := gapps
+# Bliss Variant
+BLISS_BUILDTYPE=OFFICIAL
+BLISS_BUILD_VARIANT=vanilla
 TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation Resolution
