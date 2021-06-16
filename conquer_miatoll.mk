@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit some common ConquerOS stuff
 $(call inherit-product, vendor/conquer/config/common.mk)
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
